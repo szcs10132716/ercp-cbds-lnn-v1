@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+message: If you use this software, please cite both the software and the paper it accompanies.
+title: >-
+  ercp-cbds-lnn: a liquid neural network for predicting common bile duct stone
+  recurrence after ERCP
+abstract: >-
+  Trained liquid time-constant (LTC) neural network, fitted preprocessing pipelines, clinical data
+  dictionary and inference code for predicting common bile duct stone recurrence after endoscopic
+  retrograde cholangiopancreatography from six routinely available predictors.
+type: software
+license: MIT
+repository-code: https://github.com/szcs10132716/ercp-cbds-lnn-v1
+authors:
+  - family-names: Ding
+    given-names: Yu
+    affiliation: >-
+      Department of Gastroenterology, Changshu No.1 People's Hospital (Changshu Hospital Affiliated
+      to Soochow University), Suzhou, China
+  - family-names: Sun
+    given-names: Bin
+    affiliation: >-
+      Department of Gastroenterology, Changshu Shanghu Central Health Center, Suzhou, China
+  - family-names: Wang
+    given-names: Ganhong
+    affiliation: >-
+      Department of Gastroenterology, Changshu Traditional Chinese Medicine Hospital (Changshu
+      Hospital Affiliated to Nanjing University of Chinese Medicine), Suzhou, China
+  - family-names: Xia
+    given-names: Kaijian
+    affiliation: >-
+      Changshu Key Laboratory of Medical Artificial Intelligence and Big Data, Suzhou, China
+  - family-names: Xu
+    given-names: Xiaodan
+    email: xxddocter@gmail.com
+    affiliation: >-
+      Department of Gastroenterology, Changshu No.1 People's Hospital (Changshu Hospital Affiliated
+      to Soochow University), Suzhou, China
+  - family-names: Chen
+    given-names: Jian
+    email: szcsdocter@gmail.com
+    affiliation: >-
+      Department of Gastroenterology, Changshu No.1 People's Hospital (Changshu Hospital Affiliated
+      to Soochow University), Suzhou, China
+keywords:
+  - common bile duct stones
+  - endoscopic retrograde cholangiopancreatography
+  - stone recurrence
+  - liquid neural network
+  - clinical prediction model
+preferred-citation:
+  type: article
+  title: >-
+    Development and Validation of a Liquid Neural Network-Based Prediction Model and Web-Based
+    Application for Stone Recurrence After Endoscopic Retrograde Cholangiopancreatography
+  journal: BMC Medical Informatics and Decision Making
+  year: 2026
+  authors:
+    - family-names: Ding
+      given-names: Yu
+    - family-names: Sun
+      given-names: Bin
+    - family-names: Wang
+      given-names: Ganhong
+    - family-names: Xia
+      given-names: Kaijian
+    - family-names: Xu
+      given-names: Xiaodan
+    - family-names: Chen
+      given-names: Jian
