@@ -33,7 +33,7 @@ This repository provides the official implementation, trained model weights, pre
 ## 📂 Repository Structure
 
 ```text
-ercp-cbds-lnn/
+ercp-cbds-lnn-v1/
 ├── README.md                 # Complete documentation and quickstart guide
 ├── LICENSE                   # MIT Open Source License
 ├── requirements.txt          # Strictly pinned dependencies matching manuscript
@@ -59,8 +59,8 @@ We recommend using a Python 3.10+ virtual environment:
 
 ```bash
 # Clone or extract repository
-git clone https://github.com/your-username/ercp-cbds-lnn.git
-cd ercp-cbds-lnn
+git clone https://github.com/szcs10132716/ercp-cbds-lnn-v1.git
+cd ercp-cbds-lnn-v1
 
 # Install dependencies (strictly pinned)
 pip install -r requirements.txt
