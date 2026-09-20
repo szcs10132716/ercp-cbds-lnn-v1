@@ -1,0 +1,21 @@
+Variable_Name,Display_Name,Chinese_Name,Category,Data_Type,Units,Permissible_Values_Encoding,In_Final_Model,Clinical_Definition_and_Measurement
+Sex,Sex,性别,Demographic,Binary,N/A,0 = Female; 1 = Male,No,Biological sex recorded at hospital admission.
+Age,"Age, years",年龄,Demographic,Continuous,years,Integer between 18 and 90,No,Patient chronological age in years at the time of the index ERCP.
+BMI,"BMI, kg/m²",体质指数,Demographic,Ordered Categorical,kg/m²,1 = < 18.5 (underweight); 2 = 18.5–23.9 (normal weight); 3 = ≥ 24.0 (overweight/obese),No,Body mass index calculated as weight in kilograms divided by height in meters squared. Categorized according to Chinese adult standards.
+Tbil,"Tbil, μmol/L",总胆红素,Laboratory,Continuous,μmol/L,Positive continuous value (typical range: 5.0–250.0),No,Serum total bilirubin concentration measured from the most recent venous blood sample obtained prior to the index ERCP.
+TC,"TC, mmol/L",总胆固醇,Laboratory,Continuous,mmol/L,Positive continuous value (typical range: 1.5–10.0),No,Serum total cholesterol concentration from the most recent pre-procedural fasting lipid panel.
+Ca,"Ca, mmol/L",血钙,Laboratory,Continuous,mmol/L,Positive continuous value (typical range: 1.5–3.0),No,Total serum calcium level measured prior to the index ERCP.
+CBD_diameter,"CBD diameter, mm",胆总管直径,Procedural / Anatomy,Continuous,mm,Positive continuous value (typical range: 4.0–30.0),Yes,Maximum diameter of the common bile duct measured on intraoperative retrograde cholangiographic images during full contrast opacification.
+Acute.cholangitis,Acute cholangitis,急性胆管炎病史,Clinical History,Binary,N/A,0 = No; 1 = Yes,No,Documented clinical history of acute cholangitis prior to or at presentation for index ERCP.
+ENBD,ENBD,鼻胆管引流,Procedural / Anatomy,Binary,N/A,0 = No; 1 = Yes,No,Placement of endoscopic nasobiliary drainage tube at the conclusion of the index ERCP.
+EPLBD,EPLBD,内镜乳头大球囊扩张,Procedural / Anatomy,Binary,N/A,0 = No; 1 = Yes,No,"Endoscopic papillary large balloon dilation performed using a dilation balloon with diameter ≥ 12 mm, either alone or following EST."
+PAD,PAD,十二指肠乳头旁憩室,Procedural / Anatomy,Binary,N/A,0 = No; 1 = Yes,Yes,Presence of a periampullary diverticulum within a 2-3 cm radius of the major duodenal papilla identified during duodenoscopy.
+Diabetes,Diabetes,糖尿病,Clinical History,Binary,N/A,0 = No; 1 = Yes,No,Documented medical diagnosis of diabetes mellitus (type 1 or type 2) or ongoing anti-diabetic medication therapy.
+Cholelithiasis,Cholelithiasis,胆囊结石,Clinical History,Binary,N/A,0 = No; 1 = Yes,No,"Presence of concurrent gallstones in the gallbladder verified by pre-procedure ultrasonography, CT, or MRCP."
+Acute.pancreatitis,Acute pancreatitis,急性胰腺炎病史,Clinical History,Binary,N/A,0 = No; 1 = Yes,No,Documented prior clinical episodes of acute pancreatitis according to Atlanta classification criteria.
+Cholecystectomy,Cholecystectomy,胆囊切除术史,Clinical History,Binary,N/A,0 = No; 1 = Yes,No,History of surgical cholecystectomy performed prior to the index ERCP.
+Stone_count,Stone count,结石数量,Procedural / Anatomy,Ordered Categorical,N/A,1 = Single stone (1); 2 = Two stones (2); 3 = Multiple stones (≥ 3),Yes,Total number of stones identified in the common bile duct on intraoperative cholangiography before extraction.
+Stone_diameter,"Stone diameter, mm",最大结石直径,Procedural / Anatomy,Continuous,mm,Positive continuous value (typical range: 3.0–35.0),Yes,Maximum diameter of the largest common bile duct stone measured on intraoperative cholangiography.
+EST,EST,内镜乳头括约肌切开术,Procedural / Anatomy,Binary,N/A,0 = No; 1 = Yes,Yes,Performance of endoscopic sphincterotomy at the major duodenal papilla during the index ERCP.
+CBDA,CBDA,胆总管成角,Procedural / Anatomy,Binary,N/A,0 = Angle > 145° (obtuse/normal); 1 = Angle ≤ 145° (acute/sharp angulation),Yes,Angle formed between the distal common bile duct trajectory and the proximal bile duct axis on standardized intraoperative cholangiography.
+Label,Stone recurrence,结石复发(结局),Outcome,Binary,N/A,0 = No recurrence; 1 = Recurrence,N/A,"Reappearance of stones in the common bile duct verified by abdominal imaging (ultrasonography, CT, MRI/MRCP) or repeat ERCP occurring at least 6 months after complete stone clearance."

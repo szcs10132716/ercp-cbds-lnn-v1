@@ -1,0 +1,43 @@
+{
+  "model_name": "Liquid Neural Network (LNN / LTC)",
+  "paper_title": "Development and Validation of a Liquid Neural Network-Based Prediction Model and Web-Based Application for Stone Recurrence After Endoscopic Retrograde Cholangiopancreatography",
+  "architecture": {
+    "cell_type": "LTCCell",
+    "in_dim": 6,
+    "hidden_dim": 112,
+    "steps": 5,
+    "dt": 1.0,
+    "tau_init": 0.5413,
+    "tau_min": 0.001
+  },
+  "features": [
+    "PAD",
+    "Stone_count",
+    "Stone_diameter",
+    "CBD_diameter",
+    "EST",
+    "CBDA"
+  ],
+  "feature_descriptions": {
+    "PAD": "Periampullary diverticulum (0 = No, 1 = Yes)",
+    "Stone_count": "Number of common bile duct stones (1 = 1, 2 = 2, 3 = >=3)",
+    "Stone_diameter": "Maximum stone diameter on cholangiography (mm)",
+    "CBD_diameter": "Common bile duct diameter on cholangiography (mm)",
+    "EST": "Endoscopic sphincterotomy (0 = No, 1 = Yes)",
+    "CBDA": "Common bile duct angulation (0 = > 145 deg, 1 = <= 145 deg)"
+  },
+  "decision_threshold": 0.198,
+  "risk_stratification": {
+    "lower_risk": "< 0.198",
+    "higher_risk": ">= 0.198"
+  },
+  "training_metadata": {
+    "cohort_size": 749,
+    "training_set_n": 524,
+    "validation_set_n": 225,
+    "external_test_n": 152,
+    "smotenc_seed": 0,
+    "split_seed": 3,
+    "global_seed": 42
+  }
+}
